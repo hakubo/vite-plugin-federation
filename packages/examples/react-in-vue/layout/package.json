@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "scripts": {
     "build": "vite build",
-    "serve": "vite preview --port 5000 --strictPort"
+    "serve": "vite preview --port 5000 --strictPort",
+    "dev": "vite dev --port 5000 --strictPort"
   },
   "dependencies": {
     "vue": "^3.2.37",

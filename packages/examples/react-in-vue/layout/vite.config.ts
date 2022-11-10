@@ -14,6 +14,9 @@ export default defineConfig({
     federation({
       name: 'layout',
       filename: 'remoteEntry.js',
+      exposes: {
+        './Layout': './src/main.js'
+      },
       remotes: {
         home: 'http://localhost:5001/assets/remoteEntry.js'
       }
